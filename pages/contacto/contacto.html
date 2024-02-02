@@ -11,21 +11,46 @@
 </head>
 <body>
     <header>
-        <nav>
-        <ul class="nav-bar">
-            <li class="logo"><a href="#"><img src="../../assets/images/logo.png" alt="logo de WEEBHUB"></a></li>
-            <input type="checkbox" id="check">
-            <span class="menu">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="novelas/novel-list.html">Novels</a></li>
-            <li><a href="webtoons/webtoons-list.html">Webtoon</a></li>
-            <li><a href="manga/manga-list.html">Manga</a></li>
-            <li><a href="contacto/contacto.html">Contact</a></li>
-            <label for="check" class="open-menu"><i class="fas fa-times"></i></label>
-            </span>
-            <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
-        </ul>
-        </nav>
+        <nav class="navbar sticky-top navbar-expand-md">
+            <div class="container-fluid">
+                <a href="../../index.html"><img src="../../assets/images/logo.png" alt="logo de WEEBHUB"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h2 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h2>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-4">
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="../../index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle px-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        List
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="../novelas/novel-list.html">Novels</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="../webtoons/webtoons-list.html">Webtoon</a></li>
+                        <li>
+                        <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="../manga/manga-list.html">Manga</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="contacto.html">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
     </header>
 
     <h1 class="title">Contact us</h1>

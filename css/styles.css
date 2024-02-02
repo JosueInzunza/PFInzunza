@@ -8,96 +8,56 @@ body{
     --color1: #fff;
     --color2: #181818;
     --color3: rgb(235, 155, 8);
-}
-/*Navbar*/
-.nav-bar{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    position: relative;
     background-color: var(--color2);
-    padding: 12px 20px;
 }
-.logo img{
-    width: 200px;
+/*Bootstrap navbar*/
+.navbar{
+    background-color: var(--color2);
 }
-.menu{
-    display: flex;
-}
-.menu li{
-    padding-left: 30px;
-}
-.menu li a{
-    display: inline-block;
-    text-decoration: none;
+.nav-link{
     color: var(--color1);
-    text-align: center;
-    transition: 0.15s ease-in-out;
-    position: relative;
-    text-transform: uppercase;
+    font-size: x-large;
+
 }
-.menu li a::after{
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0;
-    height: 1px;
+.nav-link:focus, 
+.nav-link:hover,
+.navbar-nav .nav-link.active, 
+.navbar-nav .nav-link.show{
+    color: var(--color3);
+}
+.dropdown-menu{
+    background-color: var(--color3);
+}
+.dropdown-item{
+    color: var(--color2);
+    font-size: x-large;
+}
+.dropdown-item:hover,
+.dropdown-item.active{
+    background-color: var(--color2);
+    color: var(--color1);
+}
+.dropdown-divider{
     background-color: var(--color1);
-    transition: 0.15s ease-in-out;
 }
-.menu li a:hover:after{
-    width: 100%;
+.navbar-toggler{
+    background-color: var(--color3);
 }
-.open-menu , .close-menu{
-    position: absolute;
+.navbar-toggler-icon{
+    width: 3rem;
+    height: 3rem;
+}
+.offcanvas{
+    background-color: var(--color2);
+}
+.offcanvas h2{
     color: var(--color1);
-    cursor: pointer;
-    font-size: 1.5rem;
-    display: none;
 }
-.open-menu{
-    top: 50%;
-    right: 20px;
-    transform: translateY(-50%);
+.btn-close{
+    background-color: var(--color3);
+    opacity: 1;
 }
-.close-menu{
-    top: 20px;
-    right: 20px;
-}
-#check{
-    display: none;
-}
-/*Reactive navbar*/
-@media(max-width: 750px){
-    .menu{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 80%;
-        height: 100vh;
-        position: fixed;
-        top: 0;
-        right: -100%;
-        z-index: 100;
-        background-color: var(--color2);
-        transition: all 0.2s ease-in-out;
-    }
-    .menu li{
-        margin-top: 40px;
-    }
-    .menu li a {
-        padding: 10px;
-    }
-    .open-menu , .close-menu{
-        display: block;
-    }
-    #check:checked ~ .menu{
-        right: 0;
-    }
-}
+
 /*Home page*/
 .title{
     background-color: var(--color3);
