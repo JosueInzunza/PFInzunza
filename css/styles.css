@@ -67,29 +67,25 @@ body{
 h2{
     font-size: 30px;
 }
-/*Content display*/
-.container{
-    display: flex;
-    justify-content: space-around;
-    padding-block: 1.5rem;
-    background-color: #181818;
+/*Bootstrap cards*/
+.row{
+    margin: 0;
 }
-.mini-container{
-    display: flex;
-    flex-wrap: wrap;
+.col{
+    display: grid;
     justify-content: center;
-    row-gap: 30px;
-    column-gap: 30px;
 }
-.mini-article{
-    position: relative;
-    overflow: hidden;
-}
-.mini-img{
-    width: 320px;
+.card{
+    border: none;
     border-radius: 15px;
+    max-height: 500px;
+    max-width: 350px;
 }
-.mini-data{
+.bg-image{
+    border-radius: 15px;
+    max-height: 500px;
+}
+.card-body{
     width: 80%;
     background-color: var(--color3);
     padding: 1.5rem 2rem;
@@ -102,38 +98,15 @@ h2{
     margin-inline: auto;
     text-align: center;
 }
-.mini-description{
-    display: flex;
-    font-size: small;
-    margin-bottom: .75rem;
-    text-align: center;
-    justify-content: center;
+.btn-outline-secondary{
+    background-color: var(--color2);
+    color: var(--color1);
 }
-.mini-title{
-    font-size: 1.5em;
-    font-weight: 500;
-    color: var(--color2);
-    margin-bottom: .25rem;
-}
-.mini-button{
-    text-decoration: none;
-    display: inline-block;
-    padding: 10px;
-    margin: 5px auto;
-    color: #181818;
-    border: 2px solid #181818;
-    border-radius: 4px;
-
-}
-.mini-button:hover{
-    background-color: #181818;
-    color: #fff;
-}
-
 
 /*Footer*/
 footer{
     background-color: var(--color3);
+    position: sticky;
 }
 .footer-container{
     width: 100%;
