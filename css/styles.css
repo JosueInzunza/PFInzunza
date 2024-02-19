@@ -102,6 +102,10 @@ h2{
     background-color: var(--color2);
     color: var(--color1);
 }
+.btn a{
+    text-decoration: none;
+    color: var(--color1);
+}
 
 /*Footer*/
 footer{
@@ -208,21 +212,27 @@ footer{
 /*Chapters list*/
 .sinopsis{
     background-color: var(--color3);
-    display: flex;
     align-items: center;
     justify-content: center;
+    display: inline-block;
 }
 .sinopsis-img{
     width: 320px;
     border-radius: 1.5rem;
-    float: left;
-    margin: 2rem;
+    display: block;
+    margin: 30px auto;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 9px 24px hsla(0, 0%, 0%, 15);
+
 }
 .sinopsis-description{
     width: 80%;
-    margin: 3rem;
+    margin: 3rem 10%;
+    display: block;
+    text-align: center;
 }
-.sinopsis-description h2{
+.sinopsis-description h1{
     font-size: 3rem;
     margin-top: 2rem;
 }
