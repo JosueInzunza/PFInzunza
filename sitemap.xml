@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/issues</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/pulls</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/actions</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/projects?query=is%3Aopen</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/security</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/releases</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/labels</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/milestones</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/compare</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/actions/workflows/pages/pages-build-deployment</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/actions/caches</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/actions/runs/7998002957</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/actions/runs/7793692576</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/labels?sort=name-asc</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/labels?sort=name-desc</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/labels?sort=count-desc</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/labels?sort=count-asc</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/labels/bug</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/labels/documentation</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/labels/duplicate</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/labels/enhancement</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/labels/good%20first%20issue</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/labels/help%20wanted</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/labels/invalid</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/labels/question</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/labels/wontfix</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/milestones?state=open</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/milestones?state=closed</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/milestones?direction=desc&amp;sort=due_date&amp;state=open</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/milestones?direction=asc&amp;sort=due_date&amp;state=open</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/milestones?direction=asc&amp;sort=completeness&amp;state=open</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/milestones?direction=desc&amp;sort=completeness&amp;state=open</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/milestones?direction=asc&amp;sort=title&amp;state=open</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/milestones?direction=desc&amp;sort=title&amp;state=open</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/milestones?direction=desc&amp;sort=count&amp;state=open</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/milestones?direction=asc&amp;sort=count&amp;state=open</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/actions/caches?query=sort%3Aaccessed-desc</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/actions/caches?query=sort%3Aaccessed-asc</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/actions/caches?query=sort%3Acreated-desc</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/actions/caches?query=sort%3Acreated-asc</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/actions/caches?query=sort%3Asize-desc</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/actions/caches?query=sort%3Asize-asc</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/actions/runs/7998002957/job/21843463018</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/actions/runs/7998002957/job/21843473455</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/actions/runs/7998002957/job/21843473456</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/actions/runs/7998002957/usage</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/commit/6fde8a080028084236d37220ec3be235b9b6e3f6</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/actions/runs/7793692576/job/21253806496</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/actions/runs/7793692576/job/21253814226</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/actions/runs/7793692576/job/21253814297</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/actions/runs/7793692576/usage</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/commit/67582e9170a3d5f71749d144ce711cf746907819</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/milestones?direction=desc&amp;sort=due_date&amp;state=closed</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/milestones?direction=asc&amp;sort=due_date&amp;state=closed</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/milestones?direction=asc&amp;sort=completeness&amp;state=closed</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/milestones?direction=desc&amp;sort=completeness&amp;state=closed</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/milestones?direction=asc&amp;sort=title&amp;state=closed</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/milestones?direction=desc&amp;sort=title&amp;state=closed</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/milestones?direction=desc&amp;sort=count&amp;state=closed</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/milestones?direction=asc&amp;sort=count&amp;state=closed</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/commit/7e45cf17dddbdba96ee2d3b6ca45f6b1033eb851</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/commit/a685d4dac67f3b59c7af90e186775c01521df7c4</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/commit/a2215518984e1c75791613a68f0bc507db773e76</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/commit/ea93d0804fa5df87632fdfe72a5f0c37a8edc85c</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/commit/ddc437a8868175c790170c66e43dbc09fab21a50</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/commit/9642f80b63d2d44ecde33155b9451f1843a843a9</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.21</priority>
+</url>
+<url>
+  <loc>https://github.com/JosueInzunza/PreEntrega2Inzunza/commit/f03d7bb3df95ba322d075127d4aff2603cd81bc8</loc>
+  <lastmod>2024-02-22T01:31:38+00:00</lastmod>
+  <priority>0.17</priority>
+</url>
+
+
+</urlset>
