@@ -1,0 +1,50 @@
+.sinopsis{
+    background-color: var(--color3);
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+}
+.sinopsis-img{
+    width: 320px;
+    border-radius: 1.5rem;
+    display: block;
+    margin: 30px auto;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 9px 24px hsla(0, 0%, 0%, 15);
+
+}
+.sinopsis-description{
+    width: 80%;
+    margin: 3rem 10%;
+    display: block;
+    text-align: center;
+}
+.sinopsis-description h1{
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+.sinopsis p{
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+.chapters{
+    display: grid;
+    place-items: center;
+    padding-block: 1.5rem;
+    background-color: #181818;
+    list-style-type: none;
+}
+.chapters li{
+    font-size: 2rem;
+    padding: 1rem 10rem;
+    border-top: 1px solid rgb(131, 127, 127);
+    border-bottom: 1px solid rgb(131, 127, 127);
+}
+.chapters li a{
+    text-decoration: none;
+    color: var(--color1);
+}
+.chapters li a:hover{
+    color: var(--color3);
+}
