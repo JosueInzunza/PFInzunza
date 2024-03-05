@@ -1,10 +1,12 @@
 /*Base*/
+/* border box start */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+/* colores base y fuente */
 body {
   font-family: "Poppins", sans-serif;
   --color1: #fff;
@@ -14,6 +16,7 @@ body {
 }
 
 /*Components*/
+/* estilo de navbar */
 .navbar {
   background-color: var(--color2);
 }
@@ -81,6 +84,7 @@ body {
   }
 }
 
+/* estilo del footer */
 footer {
   background-color: var(--color3);
   position: sticky;
@@ -171,6 +175,8 @@ footer {
     margin: 10px;
   }
 }
+
+/* estilos de las cards */
 .row {
   margin: 0;
 }

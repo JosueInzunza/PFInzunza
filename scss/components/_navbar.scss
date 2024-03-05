@@ -1,3 +1,4 @@
+/* estilo de navbar */
 .navbar{
     background-color: var(--color2);
 
@@ -67,6 +68,7 @@
     }
 }
 
+/* reactive burger navbar icon*/
 @media (max-width: 410px){
     .navbar{
         justify-content: center;
