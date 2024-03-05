@@ -67,6 +67,12 @@
     }
 }
 
+@media (max-width: 410px){
+    .navbar{
+        justify-content: center;
 
-
-
+        .container-fluid{
+            justify-content: center;
+        }
+    }
+}

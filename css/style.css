@@ -71,6 +71,16 @@ body {
   opacity: 1;
 }
 
+@media (max-width: 410px){
+  .navbar{
+    justify-content: center;
+
+    .container-fluid{
+      justify-content: center;
+    }
+  }
+}
+
 footer {
   background-color: var(--color3);
   position: sticky;
@@ -89,7 +99,7 @@ footer {
 .social-icons a {
   text-decoration: none;
   background-color: var(--color2);
-  margin: 30px;
+  margin: 1%;
   padding: 15px;
   border-radius: 30%;
 }
