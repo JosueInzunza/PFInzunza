@@ -69,12 +69,29 @@
 }
 
 /* reactive burger navbar icon*/
-@media (max-width: 410px){
-    .navbar{
-        justify-content: center;
+/*mixin*/
+@mixin juscont-spabet {
+    justify-content: space-between;
+}
+/*@if y @else*/
+$vista:mobile;
+@if $vista == mobile {
 
-        .container-fluid{
+    @media (max-width: 410px){
+        .navbar{
             justify-content: center;
+    
+            .container-fluid{
+                justify-content: center;
+            }
         }
     }
+}   @else{
+        .navbar{
+            @include juscont-spabet();
+
+            .container-fluid{
+                @include juscont-spabet();
+            }
+        }
 }
