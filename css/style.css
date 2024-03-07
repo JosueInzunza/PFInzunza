@@ -103,7 +103,7 @@ body {
 }
 .footer-container .social-icons a:hover i {
   color: var(--color2);
-  transition: 0.5s;
+  transition: 1.5s;
 }
 .footer-container .footer-nav {
   margin: 30px 0;
