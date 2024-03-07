@@ -1,11 +1,9 @@
 /* estilo del footer */
-footer{
-    background-color: var(--color3);
-    position: sticky;
-
     .footer-container{
         width: 100%;
         padding: 70px 30px 20px;
+        background-color: var(--color3);
+        position: sticky;
 
         .social-icons{
             display: flex;
@@ -26,7 +24,7 @@ footer{
             }
             a:hover{
                 background-color: var(--color1);
-                transition: 0.5s;
+                transition: 1.5s;
 
                 i{
                     color: var(--color2);
@@ -75,7 +73,7 @@ footer{
             }
         }
     }
-}
+
 
 /*Reactive footer*/
 @media(max-width: 750px){

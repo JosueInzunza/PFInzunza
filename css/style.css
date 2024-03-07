@@ -75,47 +75,45 @@ body {
   }
 }
 /* estilo del footer */
-footer {
+.footer-container {
+  width: 100%;
+  padding: 70px 30px 20px;
   background-color: var(--color3);
   position: sticky;
 }
-footer .footer-container {
-  width: 100%;
-  padding: 70px 30px 20px;
-}
-footer .footer-container .social-icons {
+.footer-container .social-icons {
   display: flex;
   justify-content: center;
 }
-footer .footer-container .social-icons a {
+.footer-container .social-icons a {
   text-decoration: none;
   background-color: var(--color2);
   margin: 1%;
   padding: 15px;
   border-radius: 30%;
 }
-footer .footer-container .social-icons i {
+.footer-container .social-icons i {
   font-size: 2em;
   color: var(--color1);
   opacity: 0.9;
 }
-footer .footer-container .social-icons a:hover {
+.footer-container .social-icons a:hover {
   background-color: var(--color1);
-  transition: 0.5s;
+  transition: 1.5s;
 }
-footer .footer-container .social-icons a:hover i {
+.footer-container .social-icons a:hover i {
   color: var(--color2);
   transition: 0.5s;
 }
-footer .footer-container .footer-nav {
+.footer-container .footer-nav {
   margin: 30px 0;
 }
-footer .footer-container .footer-nav ul {
+.footer-container .footer-nav ul {
   display: flex;
   justify-content: center;
   list-style-type: none;
 }
-footer .footer-container .footer-nav ul li a {
+.footer-container .footer-nav ul li a {
   color: var(--color2);
   margin: 20px;
   text-decoration: none;
@@ -123,17 +121,17 @@ footer .footer-container .footer-nav ul li a {
   opacity: 0.7;
   transition: 0.5s;
 }
-footer .footer-container .footer-nav ul li a:hover {
+.footer-container .footer-nav ul li a:hover {
   opacity: 1;
 }
-footer .footer-container .copyrigth {
+.footer-container .copyrigth {
   padding: 20px;
   text-align: center;
 }
-footer .footer-container .copyrigth p {
+.footer-container .copyrigth p {
   color: var(--color2);
 }
-footer .footer-container .copyrigth p .designer {
+.footer-container .copyrigth p .designer {
   opacity: 0.7;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -190,6 +188,9 @@ footer .footer-container .copyrigth p .designer {
 .row .col .card .card-body .btn-outline-secondary a {
   text-decoration: none;
   color: var(--color1);
+}
+.row .col .card .card-body .btn-outline-secondary a:hover {
+  color: var(--color3);
 }
 
 /*Layout*/
