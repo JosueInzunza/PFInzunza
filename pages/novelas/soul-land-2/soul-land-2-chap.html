@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WEEBHUB</title>
-    <meta name="description" content="Blog for reading novels">
-    <meta name="keywords" content="novel, novel list">
+    <meta name="description" content="Blog for reading soul land 2 novel">
+    <meta name="keywords" content="novel, soul land 2, soul land 2 novel">
     <!-- links externos -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../../css/style.css">
@@ -35,7 +35,7 @@
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle px-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">List</a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="novel-list.html">Novels</a></li>
+                                    <li><a class="dropdown-item" href="../novelas/novel-list.html">Novels</a></li>
                                     <li><hr class="dropdown-divider"></li>
                                     <li><a class="dropdown-item" href="../webtoons/webtoons-list.html">Webtoon</a></li>
                                     <li><hr class="dropdown-divider"></li>
@@ -52,60 +52,28 @@
             </nav>
     </header>
     <main>
-        <!-- seccion de listado de novelas -->
-        <h1 class="title">Novels</h1>
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-            <div class="col p-3">
-                <div class="card h-100">
-                    <img src="../../assets/images/novels-img/novels-extra-img/novels-extra-mini.png" class="bg-image" alt="the novels extra image">
-                        <div class="card-body">
-                        <h3 class="card-title">The novel´s extra</h3>
-                        <p class="card-text">Waking up, Kim Hajin finds himself in a familiar world but an unfamiliar body...</p>
-                        <button type="button" class="btn btn-outline-secondary"><a href="novels-extra/novels-extra-chap.html">Read</a></button>
-                    </div>
-                </div>
+        <!-- seccion de sinopsis de novela -->
+        <section class="sinopsis">
+            <div class="sinopsis-bg-img">
+            <img class="sinopsis-img" src="../../assets/images/novels-img/soul-land2-img/soul-land2-mini.png" alt="soul land 2 miniature">
             </div>
-            <div class="col p-3">
-                <div class="card h-100">
-                    <img src="../../assets/images/novels-img/emperors-domination-img/emperors-domination.png" class="bg-image" alt="emperors domination image">
-                        <div class="card-body">
-                        <h3 class="card-title">Emperors domination</h3>
-                        <p class="card-text">A boy that was imprisoned for millions of years had regained his mortal body...</p>
-                        <button type="button" class="btn btn-outline-secondary"><a href="emperors-domination/emperors-domination-chap.html">Read</a></button>                    </div>
-                </div>
+            <div class="sinopsis-description">
+            <h1>Soul land 2</h1>
+            <p>The legend of the continent, the battle that brought fame; the Sacred Phoenix Lady, the Windfire Meteor Godrealm saber-art; the pair that ascend and fuse, the golden sun and the blue moon, the fury of the crashing thunder. There is no magic, no battle qi, nor any martial arts in this land. However, there are martial spirits. Ten thousand years have passed since the founding of the Tang Sect on the Douluo continent, and it has declined. A new, proud generation of heaven’s chosen has been born. Can the new generation of Shrek’s Seven Devils rally the Tang Sect and once more compose the song of the Unrivaled Tang Sect? A million-year-old spirit beast, a sacred deathgod that holds the sun, the moon, and the stars in his hands, and a brand new spirit tool system which caused the fall of the Tang sect. One miracle shall occur after another. Can the Tang Sect’s hidden weapons rally the winds, and can the glory of the Tang Sect ascend once more? All of this will be continued in the second installment of Douluo Dalu—The Unrivaled Tang Sect!.</p>
             </div>
-            <div class="col p-3">
-                <div class="card h-100">
-                    <img src="../../assets/images/novels-img/trash-of-the-counts-family/trash-of-the-countes-family-mini.png" class="bg-image" alt="trash of the counts family image">
-                        <div class="card-body">
-                        <h3 class="card-title">Trash of the count´s family</h3>
-                        <p class="card-text">In a different world, he finds himself possessing the body of a minor villain inside of the novel [The Birth of a Hero]: Cale Henituse...</p>
-                        <button type="button" class="btn btn-outline-secondary"><a href="trash-of-the-counts-family/trash-of-the-counts-family-chap.html">Read</a></button>                    </div>
-                </div>
-            </div>
-            <div class="col p-3">
-                <div class="card h-100">
-                    <img src="../../assets/images/novels-img/soul-land-img/soul-land-mini.png" class="bg-image" alt="soul land image">
-                        <div class="card-body">
-                        <h3 class="card-title">Soul land</h3>
-                        <p class="card-text">By stealing Tang Sect´s most secret teachings to fulfill his dreams, Tang San committed an unforgivable crime...</p>
-                        <button type="button" class="btn btn-outline-secondary"><a href="soul-land/soul-land-chap.html">Read</a></button>
-                    </div>
-                </div>
-            </div>
-            <div class="col p-3">
-                <div class="card h-100">
-                    <img src="../../assets/images/novels-img/soul-land2-img/soul-land2-mini.png" class="bg-image" alt="soul land 2 image">
-                        <div class="card-body">
-                        <h3 class="card-title">Soul land 2</h3>
-                        <p class="card-text">The legend of the continent, the battle that brought fame, The Unrivaled Tang Sect!...</p>
-                        <button type="button" class="btn btn-outline-secondary"><a href="soul-land-2/soul-land-2-chap.html">Read</a></button>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </section>
+        <!-- seccion de listado de capitulos -->
+        <section class="chap-container">
+            <ul class="chapters">
+                <li><a href="soulland2-5.html">Chapter 5</a></li>
+                <li><a href="soulland2-4.html">Chapter 4</a></li>
+                <li><a href="soulland2-3.html">Chapter 3</a></li>
+                <li><a href="soulland2-2.html">Chapter 2</a></li>
+                <li><a href="soulland2-1.html">Chapter 1</a></li>
+            </ul>
+        </section>
     </main>
-    <!-- link extero de bootstrap -->
+    <!-- link externo de bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 

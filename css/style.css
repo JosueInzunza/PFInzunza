@@ -320,5 +320,10 @@ h2 {
   width: 90%;
   justify-self: center;
 }
+.chapter-container .chap-content .chapter-p {
+  color: gray;
+  padding: 20px;
+  font-size: larger;
+}
 
 /*# sourceMappingURL=style.css.map */
