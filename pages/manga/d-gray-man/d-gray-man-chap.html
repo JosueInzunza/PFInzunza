@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WEEBHUB</title>
-    <meta name="description" content="Blog for reading manga">
-    <meta name="keywords" content="manga, manga list">
+    <meta name="description" content="Blog for reading manga d-gray man">
+    <meta name="keywords" content="manga, d-gray man, d-gray man manga">
     <!-- links externos -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../../css/style.css">
@@ -39,7 +39,7 @@
                                     <li><hr class="dropdown-divider"></li>
                                     <li><a class="dropdown-item" href="../webtoons/webtoons-list.html">Webtoon</a></li>
                                     <li><hr class="dropdown-divider"></li>
-                                    <li><a class="dropdown-item" href="manga-list.html">Manga</a></li>
+                                    <li><a class="dropdown-item" href="../manga/manga-list.html">Manga</a></li>
                                 </ul>
                                 </li>
                             <li class="nav-item">
@@ -52,64 +52,33 @@
             </nav>
     </header>
     <main>
-        <!-- seccion de listado de mangas -->
-        <h1 class="title">Manga</h1>
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-            <div class="col p-3">
-                <div class="card h-100">
-                    <img src="../../assets/images/manga-img/attack-on-titan-img/attack-on-titan.png" class="bg-image" alt="attack on titan image">
-                        <div class="card-body">
-                        <h3 class="card-title">Attack on titan</h3>
-                        <p class="card-text">A mysterious race of giant, man-eating humanoids, known as “Titans”, suddenly appeared and nearly exterminated humanity...</p>
-                        <button type="button" class="btn btn-outline-secondary"><a href="attack-on-titan/attack-on-titan-chap.html">Read</a></button>
-                    </div>
-                </div>
+        <!-- seccion de sinopsis de manga -->
+        <section class="sinopsis">
+            <div class="sinopsis-bg-img">
+            <img class="sinopsis-img" src="../../assets/images/manga-img/d-gray-man-img/d-gray-man-mini.png" alt="d-gray man miniature">
             </div>
-            <div class="col p-3">
-                <div class="card h-100">
-                    <img src="../../assets/images/manga-img/one-piece-img/one-piece.png" class="bg-image" alt="one piece image">
-                        <div class="card-body">
-                        <h3 class="card-title">One piece</h3>
-                        <p class="card-text">The story of Monkey D. Luffy, a young man who has a single dream: To find the legendary treasure...</p>
-                        <button type="button" class="btn btn-outline-secondary"><a href="one-piece/one-piece-chap.html">Read</a></button>
-                    </div>
-                </div>
+            <div class="sinopsis-description">
+            <h1>D-gray man</h1>
+            <p>Thousands of years ago, there existed those gifted with the power of God. Their mission: to destroy the ominous evils that lurk in the darkness known as “Akuma.” Led by the Milenium Earl, Akuma seek to destroy fragments of “Innocence,” the only weapons capable of harming the Earl and his army and bring about the Great Flood from a hundred years ago.
+            To prevent this tragedy from happening, the Black Order was formed as an organization dedicated to fighting the Earl. They recruit Exorcists, those with the inherent ability to accomodate Innocence, to fight against the Akuma.
+            In the late 19th century, Allen Walker—a white-haired boy armed with Innocence that takes the form of his entire left arm and a cursed eye that can see Akuma—is sent to the Black Order. There, Allen meets various comrades from the Order—the mercurial Yuu Kanda, the kindhearted Lenalee Lee, and the cheerful yet mysterious Lavi. Despite their different personalities, they have one goal in mind: to bring salvation to the souls of Akuma and prevent the Earl from destroying the world.</p>
             </div>
-            <div class="col p-3">
-                <div class="card h-100">
-                    <img src="../../assets/images/manga-img/naruto-img/naruto-mini.png" class="bg-image" alt="naruto image">
-                        <div class="card-body">
-                        <h3 class="card-title">Naruto</h3>
-                        <p class="card-text">The demon was defeated and sealed into the infant Naruto Uzumaki, by the Fourth Hokage who sacrificed his life to protect the village...</p>
-                        <button type="button" class="btn btn-outline-secondary"><a href="naruto/naruto-chap.html">Read</a></button>
-                    </div>
-                </div>
-            </div>
-            <div class="col p-3">
-                <div class="card h-100">
-                    <img src="../../assets/images/manga-img/bleach-img/bleach-mini.png" class="bg-image" alt="bleach image">
-                        <div class="card-body">
-                        <h3 class="card-title">Bleach</h3>
-                        <p class="card-text">Ichigo Kurosaki has always been able to see ghosts, but this ability does not change his life...</p>
-                        <button type="button" class="btn btn-outline-secondary"><a href="bleach/bleach-chap.html">Read</a></button>
-                    </div>
-                </div>
-            </div>
-            <div class="col p-3">
-                <div class="card h-100">
-                    <img src="../../assets/images/manga-img/d-gray-man-img/d-gray-man-mini.png" class="bg-image" alt="d-gray man image">
-                        <div class="card-body">
-                        <h3 class="card-title">D-gray man</h3>
-                        <p class="card-text">Thousands of years ago, there existed those gifted with the power of God. Their mission: to destroy the ominous evils that lurk in the darkness...</p>
-                        <button type="button" class="btn btn-outline-secondary"><a href="d-gray-man/d-gray-man-chap.html">Read</a></button>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </section>
+        <!-- seccion de lista de capitulos -->
+        <section class="chap-container">
+            <ul class="chapters">
+                <li><a href="dgrayman-5.html">Chapter 5</a></li>
+                <li><a href="dgrayman-4.html">Chapter 4</a></li>
+                <li><a href="dgrayman-3.html">Chapter 3</a></li>
+                <li><a href="dgrayman-2.html">Chapter 2</a></li>
+                <li><a href="dgrayman-1.html">Chapter 1</a></li>
+            </ul>
+        </section>
     </main>
     <!-- link externo de bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
+
 <!-- footer -->
 <footer class="footer-container">
     <div class="social-icons">

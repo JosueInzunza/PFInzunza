@@ -27,38 +27,36 @@
             }
 
             .offcanvas-body{
-                ul{
-                    li{
+                .navbar-nav{
+                    .nav-item{
                         .nav-link{
-                            color: var(--color1);
-                            font-size: x-large;
-                        
+                        color: var(--color1);
+                        font-size: x-large;
                         }
-                    }
-                    ul{
                         .dropdown-menu{
                             background-color: var(--color3);
 
-                            .dropdown-item{
-                                color: var(--color2);
-                                font-size: x-large;
-                            }
+                                .dropdown-item{
+                                    color: var(--color2);
+                                    font-size: x-large;
+                                }
 
-                            .dropdown-divider{
-                                background-color: var(--color1);
-                            }
+                                .dropdown-divider{
+                                    background-color: var(--color1);
+                                }
 
-                            .dropdown-item:hover,
-                            .dropdown-item.active{
-                                background-color: var(--color2);
-                                color: var(--color1);
-                            }
+                                .dropdown-item:hover,
+                                .dropdown-item.active{
+                                    background-color: var(--color2);
+                                    color: var(--color1);
+                                }
 
-                            .nav-link:focus, 
-                            .nav-link:hover,
-                            .navbar-nav .nav-link.active, 
-                            .navbar-nav .nav-link.show{
-                                color: var(--color3);
+                                .nav-link:focus, 
+                                .nav-link:hover,
+                                .navbar-nav .nav-link.active, 
+                                .navbar-nav .nav-link.show{
+                                    color: var(--color3);
+                                }
                             }
                         }
                     }
@@ -66,7 +64,7 @@
             }
         }
     }
-}
+
 
 /* reactive burger navbar icon*/
 /*mixin*/

@@ -37,29 +37,29 @@ body {
   background-color: var(--color3);
   opacity: 1;
 }
-.navbar .container-fluid .offcanvas .offcanvas-body ul li .nav-link {
+.navbar .container-fluid .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
   color: var(--color1);
   font-size: x-large;
 }
-.navbar .container-fluid .offcanvas .offcanvas-body ul ul .dropdown-menu {
+.navbar .container-fluid .offcanvas .offcanvas-body .navbar-nav .nav-item .dropdown-menu {
   background-color: var(--color3);
 }
-.navbar .container-fluid .offcanvas .offcanvas-body ul ul .dropdown-menu .dropdown-item {
+.navbar .container-fluid .offcanvas .offcanvas-body .navbar-nav .nav-item .dropdown-menu .dropdown-item {
   color: var(--color2);
   font-size: x-large;
 }
-.navbar .container-fluid .offcanvas .offcanvas-body ul ul .dropdown-menu .dropdown-divider {
+.navbar .container-fluid .offcanvas .offcanvas-body .navbar-nav .nav-item .dropdown-menu .dropdown-divider {
   background-color: var(--color1);
 }
-.navbar .container-fluid .offcanvas .offcanvas-body ul ul .dropdown-menu .dropdown-item:hover,
-.navbar .container-fluid .offcanvas .offcanvas-body ul ul .dropdown-menu .dropdown-item.active {
+.navbar .container-fluid .offcanvas .offcanvas-body .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover,
+.navbar .container-fluid .offcanvas .offcanvas-body .navbar-nav .nav-item .dropdown-menu .dropdown-item.active {
   background-color: var(--color2);
   color: var(--color1);
 }
-.navbar .container-fluid .offcanvas .offcanvas-body ul ul .dropdown-menu .nav-link:focus,
-.navbar .container-fluid .offcanvas .offcanvas-body ul ul .dropdown-menu .nav-link:hover,
-.navbar .container-fluid .offcanvas .offcanvas-body ul ul .dropdown-menu .navbar-nav .nav-link.active,
-.navbar .container-fluid .offcanvas .offcanvas-body ul ul .dropdown-menu .navbar-nav .nav-link.show {
+.navbar .container-fluid .offcanvas .offcanvas-body .navbar-nav .nav-item .dropdown-menu .nav-link:focus,
+.navbar .container-fluid .offcanvas .offcanvas-body .navbar-nav .nav-item .dropdown-menu .nav-link:hover,
+.navbar .container-fluid .offcanvas .offcanvas-body .navbar-nav .nav-item .dropdown-menu .navbar-nav .nav-link.active,
+.navbar .container-fluid .offcanvas .offcanvas-body .navbar-nav .nav-item .dropdown-menu .navbar-nav .nav-link.show {
   color: var(--color3);
 }
 
@@ -284,6 +284,41 @@ body {
 
 h2 {
   font-size: 30px;
+}
+
+/*estilo de los capitulos*/
+.chapter-container {
+  padding: 50px 0;
+  justify-content: center;
+  align-content: center;
+  display: grid;
+}
+.chapter-container .chap-tittle {
+  color: var(--color1);
+  justify-self: center;
+}
+.chapter-container .d-grid .btn-move {
+  background-color: var(--color3);
+  color: var(--color2);
+  width: 50%;
+  padding: 20px auto;
+  justify-self: center;
+}
+.chapter-container .d-grid .btn-move a {
+  text-decoration: none;
+  color: var(--color2);
+}
+.chapter-container .d-grid .btn-move a:hover {
+  color: var(--color1);
+}
+.chapter-container .chap-content {
+  display: grid;
+  padding: 0 auto;
+  justify-content: center;
+}
+.chapter-container .chap-content .chapter-img {
+  width: 90%;
+  justify-self: center;
 }
 
 /*# sourceMappingURL=style.css.map */
